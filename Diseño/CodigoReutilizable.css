@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo de las margenes de las Secciones Proyectos Metas Propositos Contactanos */
+.margenGlobal {
+    margin: 90px 0;
+}
+
+/* Estilo de los titulos de las Secciones Proyectos Metas Propositos Contactanos */
+.titulosGlobal {
+    font-weight: 750;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+/* Estilo del boton del Header y Formulario */
+.btnColor {
+    background-color: #fec503;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.btnColor:hover {
+    background-color: #fed136;
+    color: white;
+}
+
+.btnSize { padding: 20px 30px; }
+
+/* Estilo de los iconos de la seccion Logros y Footer */
+.redesSociales {
+    font-size: 40px;
+    color: black !important;
+}
+
+.redesSociales:hover {
+    color: gold !important;
+    transition: all 0.2s linear;
+}
+
+/* Estilo color de fondo seccion Metas y Logros */
+.colorFondo { background-color: #F5F5F5; }

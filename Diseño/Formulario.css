@@ -1,0 +1,12 @@
+/* El estilo de los Titulos estan en CodigoReutilizable.css LINEA 11 A 16 */
+/* El estilo del boton se encuentra en CodigoReutilizable.css LINEA 18 A 25 */
+.formImg {
+    background-image: url(../Imagenes/map-image.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.comentarios {
+    min-height: 161px;
+    max-height: 161px;
+}

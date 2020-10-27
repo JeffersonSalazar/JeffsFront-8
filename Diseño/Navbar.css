@@ -1,0 +1,42 @@
+/* #menuNavi { background-color:#212529d8; } */
+
+nav {
+    background-color:#212529d8;
+}
+
+.nit {
+    color: #fec503;
+    font-size: 24px;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.nit:hover { color: #fed136; }
+
+.aNavBar {
+    color: white;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.aNavBar:hover { color: #fec503; }
+
+.menuIcono {
+    font-size: 12px;
+    background-color: #fec503;
+    color: white;
+    padding: 13px;
+    border: 0;
+}
+
+.menuIcono:hover {
+    background-color: #fed136;;
+}
+
+@media (min-width: 768px) {
+    .nit {
+        font-size: 1.50em;
+        transition: all .3s linear;
+    }
+}

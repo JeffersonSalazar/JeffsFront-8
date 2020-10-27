@@ -1,0 +1,8 @@
+/* El estilo de los iconos se encuentran en CodigoReutilizable.css LINEA 34 A 43 */
+.aFooter {
+    color: #fec503;
+}
+
+.aFooter:hover {
+    color: #fed136
+}

@@ -1,0 +1,27 @@
+/* El estilo del boton se encuentra en CodigoReutilizable.css LINEA 18 A 25 */
+#banner, .centrado { min-height: 500px; }
+
+#banner {
+    color: white;
+    background-image: url(../Imagenes/img-min-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.tituloHeader {  
+    font-size: 80px;
+    font-family: 'Caveat', cursive;
+}
+
+.parrafoHeader {
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    #banner, .centrado { min-height: 700px; }
+}
+

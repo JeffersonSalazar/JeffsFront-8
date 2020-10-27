@@ -1,0 +1,9 @@
+/* El estilo de los Titulos estan en CodigoReutilizable.css LINEA 11 A 16 */
+/* El estilo de los iconos se encuentran en CodigoReutilizable.css LINEA 34 A 43 */
+/* El estilo de el color de fondo se encuentran en CodigoReutilizable.css LINEA 45 A 46 */
+.logrosMain { margin-bottom: 25px; }
+
+.logrosImg {
+    width: 250px;
+    border: 7px solid gainsboro;
+}

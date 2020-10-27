@@ -1,0 +1,8 @@
+/* El estilo de las Margenes y Titulos estan en CodigoReutilizable.css LINEA 5 A 16 */
+.iconoProyectos {
+    font-size: 70px;
+    background-color: #fed136;
+    color: white;
+    border-radius: 100%;
+    padding: 16px;
+}

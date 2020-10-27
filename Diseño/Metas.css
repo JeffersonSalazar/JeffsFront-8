@@ -1,0 +1,43 @@
+/* El estilo de los Titulos estan en CodigoReutilizable.css LINEA 11 A 16 */
+/* El estilo de el color de fondo se encuentran en CodigoReutilizable.css LINEA 45 A 46 */
+.contenedorIcono {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    background:rgba(254,209,54,.9);
+    opacity:0;
+    transition:all .5s ease;
+}
+
+.contenedorIcono:hover { opacity: 1; }
+
+.metasLink {
+    position: relative;
+    display: block;
+}
+
+.iconoCentrado {
+    color: white;
+    font-size: 80px;
+    margin-top: 1.6rem;
+}
+
+.imgShadow { 
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    height: 200px;
+}
+
+.cardParrafos {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Caveat', cursive;
+}
+
+@media (max-width: 991px) {
+    .cardParrafos { text-align: center; }
+}
+
